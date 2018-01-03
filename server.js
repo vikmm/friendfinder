@@ -16,8 +16,8 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 //Calling out the routes I have created
 
-require('./app/routing/api-routes.js')(app); 
-require('./app/routing/html-routes.js')(app);
+require('./app/routes/api-routes.js')(app); 
+require('./app/routes/html-routes.js')(app);
 
 
 //Where the App will listen for the Port
