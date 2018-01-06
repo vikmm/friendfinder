@@ -1,36 +1,30 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "friend finder app ",
+  "description": "friend finder app",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [
-    "app"
-  ],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikmm/friendfinder.git"
+  },
+  "keywords": [
+    "real",
+    "friends"
+  ],
+  "author": "Victor Montemayor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikmm/friendfinder/issues"
+  },
+  "homepage": "https://github.com/vikmm/friendfinder#readme"
 }
-
-   ```json
-   {
-     "name": "starwars",
-     "version": "1.0.0",
-     "description": "Helps you find the characters you are looking for",
-     "main": "server.js",
-     "dependencies": {
-       "body-parser": "^1.15.0",
-       "express": "^4.13.4"
-     },
-     "scripts": {
-       "start": "node server.js"
-     }
-   }
-   ```
